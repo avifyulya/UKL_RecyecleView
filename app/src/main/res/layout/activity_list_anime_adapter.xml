@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/poto"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        tools:src="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:layout_toEndOf="@+id/poto"
+        android:layout_toRightOf="@id/poto"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_nama_anime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Nama Anime"
+            />
+        <TextView
+            android:id="@+id/tv_genre_anime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Genre Anime"
+            />
+        <TextView
+            android:id="@+id/tv_produksi_studio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/studio"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjekAkhir</string>
+    <string name="list">Daftar Anime</string>
+    <string name="galeri">Galeri Matahari Terbit</string>
+    <string name="cardview">Keterangan</string>
+    <string name="nama_karakter">Nama Karakter</string>
+    <string name="from_karakter">Asal Karakter</string>
+    <string name="genre">Genre Anime</string>
+    <string name="studio">Produksi dari Studio</string>
+    <string name="description">deskripsi</string>
+    <string name="favorite">Favorite</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+</resources>
